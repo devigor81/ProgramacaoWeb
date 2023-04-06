@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-geral {
+    height: 35rem;
+    background-color: rgb(220, 223, 223);
+    border-radius: 8px;
+}
+
+.container-input-head {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-input-box {
+    width: 500px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.inputs {
+    height: 23px;
+    border-radius: 5px;
+    padding: 13px;
+    background-color:rgb(220, 223, 223);
+    border: 1px solid rgb(161, 161, 161);
+}
+
+.titulosInputs {
+    text-align: left;
+    padding: 2px;
+}
+
+.container-campos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-table {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-box {
+    width: 500px;
+    height: 250px;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(161, 161, 161);
+}
+
+thead tr {
+    padding: 10px;
+}
+thead th {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+tbody {
+    border-collapse: collapse;
+}
+
+tbody td {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+button {
+    width: 170px;
+    padding: 13px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+}
+
+.container-botoes {
+    margin-top: 3%;
+}
+
+#botaoAdicionar {
+    background-color: rgb(33, 209, 33);
+}
+
+#botaoRemover {
+    background-color: red;
+}

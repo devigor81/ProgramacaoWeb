@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+
+    <div class="container-geral" >
+        
+        <div class="container-input-head" >
+            <div class="container-input-box">
+                <h1>Lista de produtos</h1>
+                
+                
+                <label class="titulosInputs" for="descricao">Descrição</label>
+                <input class="inputs" type="text" id="inputDescricao"><br>
+                
+                <div class="container-campos">
+                    <div>
+                        <label class="titulosInputs" for="preco">Preço</label>
+                        <input class="inputs" type="number" name="preco" id="inputPreco"><br>
+                    
+                    </div>
+                    <div>
+                        <label class="titulosInputs" for="quantidade">Quantidade</label>
+                        <input class="inputs" type="number" name="quantidade" id="inputQuantidade"><br>
+                    </div>
+                      
+                </div>
+                <div class="container-botoes">
+                    <button type="submit" id="botaoAdicionar">Adicionar</button>
+                    <button type="submit" id="botaoRemover">Remover Produtos</button>
+                </div>
+               
+            </div>
+            
+
+        </div>
+
+        <div class="container-table">
+            <div class="container-box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                        </tr>
+                    </thead>
+                    <tbody id="conteudoTabela">
+        
+                    </tbody>
+                </table>
+            </div>
+           
+        </div>
+        
+    </div>
+    
+</body>
+</html>
