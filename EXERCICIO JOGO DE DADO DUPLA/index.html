@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <div class="container-players">
+
+    <div class="container-player1">
+      <h3>Jogador 1</h3>
+
+      <div class="container-rodadasVencidas">
+        <h4>Rodadas vencidas: </h4>
+        <h4 id="vitoriaRodadaPlayer1">0</h4>
+      </div>
+      
+      <div>
+        <button id="btPlayer1" type="submit">Rodar Dado</button>
+      </div>
+      
+      <div class="container-resultadoPlayer1">
+        <h1 id="resultadoDadoPlayer1"></h1>
+      </div>
+      
+    </div>
+    
+    <div class="container-player2">
+      <h3>Jogador 2</h3>
+      
+      <div class="container-rodadasVencidas">
+        <h4>Rodadas vencidas: </h4>
+        <h4 id="vitoriaRodadaPlayer2">0</h4>
+      </div>
+
+      <div>
+        <button id="btPlayer2" type="submit" disabled>Rodar Dado</button>
+      </div>
+      
+      <div class="container-resultadoPlayer2">
+        <h1 id="resultadoDadoPlayer2"></h1>
+      </div>
+      
+    </div>
+
+  </div>
+
+  <div class="container-rodadas-jogadas">
+    <p>Rodadas jogadas:</p>
+    <h3 id="rodadas">0</h3>
+  </div>
+  <div class="container-rodadas-jogadas">
+    <p>Rodadas Empatadas:</p>
+    <h3 id="empates">0</h3>
+  </div>
+
+  <button type="submit" id="btReiniciar">Reiniciar Jogo</button>
+  
+</body>
+</html>

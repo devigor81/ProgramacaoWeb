@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-family: sans-serif;
+}
+
+.container-players {
+  display: flex;
+  width: 50rem;
+  height: 25rem;
+}
+
+.container-player1 {
+  display: grid;
+  justify-content: center;
+  width: 25rem;
+  height: 25rem;
+  padding: 35px;
+  text-align: center;
+  background-color: rgb(12, 134, 87);
+}
+
+.container-player1 button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container-resultadoPlayer1 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 80px;
+}
+
+.container-player2 {
+  display: grid;
+  justify-content: center;
+  width: 25rem;
+  height: 25rem;
+  padding: 35px;
+  text-align: center;
+  background-color: rgb(228, 58, 66);
+}
+
+.container-player2 button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container-resultadoPlayer2 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 80px;
+}
+
+.container-rodadasVencidas {
+  display: flex;
+  justify-content: center;
+}
+
+.container-rodadas-jogadas {
+  display: flex;
+  padding: 15px;
+}
+
+#btReiniciar {
+  width: 180px;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(243, 67, 67);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
