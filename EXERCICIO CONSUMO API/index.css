@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box {
+  width: 60rem;
+  height: 35rem;
+  background-color: rgb(126, 168, 247);
+  border-radius: 10px;
+  margin-top: 10%;
+  text-align: center;
+  padding: 2rem;
+  color: rgb(241, 241, 241);
+}
+
+.container-box h1 {
+  color: rgb(59, 59, 59);
+}
+
+.container-box h2 {
+  margin-top: 3%;
+  font-weight: bolder;
+  color: rgb(59, 59, 59);
+}
+
+.container-input {
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.container-input input {
+  width: 7rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 16px;
+}
+
+.container-input button {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  
+}
+#btDelete {
+  margin-top: 1%;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: rgb(255, 70, 70);
+  color: white;
+  cursor: pointer;
+  justify-content: right;
+}
+
+table {
+  display: inline-table;
+  width: 50rem;
+  border-collapse: collapse;
+  margin-top: 2%;
+  background-color: white;
+}
+
+table thead {
+  height: 45px;
+  background-color: rgb(59, 59, 59);
+}
+
+table tbody {
+  color: black;
+}
+table tbody td {
+  color: black;
+  padding: 7px;
+}
+
+

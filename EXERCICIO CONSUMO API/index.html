@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="container-box">
+        <h1>Cadastro de Endereços</h1>
+
+        <div class="container-input">
+            <label for="cep">CEP</label>
+            <input type="text" id="inputCEP">
+            <button type="submit" id="btSearch">Pesquisar</button>
+        </div>
+    
+        <h2>Endereços salvos</h2>
+
+        <button type="submit" id="btDelete">Apagar</button><br>
+        <table>
+            <thead>
+                <th>CEP</th>
+                <th>Logradouro</th>
+                <th>Bairro</th>
+                <th>Localidade</th>
+                <th>UF</th>
+            </thead>
+            <tbody id="campoEndereco">
+
+            </tbody>
+        </table>
+        
+    </div>
+    
+</body>
+</html>
