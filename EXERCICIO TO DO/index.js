@@ -24,6 +24,7 @@ const adicionarLista = (atividades) => {
         inputCheck.checked = (atividade.done) ? true : false;
 
         campoDescricao.innerHTML = atividade.description;
+        campoDescricao.className = (atividade.done) ? "atividade-concluida" : "atividade-nao-concluida"
         btDeletar.innerHTML = "X";
 
         campoCheck.appendChild(inputCheck);
@@ -39,9 +40,11 @@ const adicionarLista = (atividades) => {
         lista.addEventListener("change", (event) => {
             if (event.target.type === "checkbox") {
                 const id = event.target.parentNode.parentNode.id;
-
+                console.log(event.currentTarget.childNodes);
+                //campoDescricao.className = () ? "atividade-nao-concluida" : "atividade-concluida";
                 for (atividade of atividades) {
                     if (atividade.objectId === id) {
+                        
                         atualizarAtividade(id, atividade)
                     }
                 }
