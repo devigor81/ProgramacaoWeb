@@ -97,11 +97,14 @@ const atualizarAtividade = (id, atividade) => {
     };
 
     fetch(rota + `/${id}`, params)
+        .then(() => {
+            obterListaAtividades();
+        })
         .catch((error) => {
             console.log(error);
         })
 
-    obterListaAtividades;
+    
 }
 
 const deletarAtividade = (id) => {
