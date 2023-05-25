@@ -134,7 +134,7 @@ const partidaPadrao = () => {
   localStorage.setItem('rodadas', '0')
 
   vitoriaRodadaPlayer1.innerHTML = 0
-  localStorage.setItem('vitoriaRodadaPlayer2', '0')
+  localStorage.setItem('vitoriaRodadaPlayer1', '0')
 
   vitoriaRodadaPlayer2.innerHTML = 0
   localStorage.setItem('vitoriaRodadaPlayer2', '0')
